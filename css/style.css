@@ -21,12 +21,11 @@ img{
     font-size: 60px;
 }
 main{
-    margin-top: 20px;
+    margin-top: 40px;
     height: 100%;
 }
 .conteiner{
-    margin-top: 70px;
-    padding: 20px;
+    padding: 10px 40px 20px 40px;
     background-color: white;
     width: 50%;
     margin: auto;
@@ -59,7 +58,7 @@ h3::before{
     margin-right: 5px;
 }
 p{
-    margin: 10px 0;
+    margin: 15px 0;
 }
 p::before{
     content: '\2713 ';
