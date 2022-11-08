@@ -4,9 +4,16 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+body{
+    background-color: #f6f8f9;
+}
+header, .conteiner{
+    background-color: white;
+}
 img{
     width: 100px;
     vertical-align: middle;
+    padding-bottom: 10px;
 }
 #logo-text{
     display: inline-block;
@@ -14,11 +21,12 @@ img{
     font-size: 60px;
 }
 main{
-    background-color: gray;
     margin-top: 20px;
+    height: 100%;
 }
 .conteiner{
     margin-top: 70px;
+    padding: 20px;
     background-color: white;
     width: 50%;
     margin: auto;
@@ -26,14 +34,21 @@ main{
 }
 .input{
     padding: 10px 20px;
-    border-bottom: 3px solid gray;
+    border-bottom: 3px solid #f6f8f9;
 }
 .button{
-    padding: 5px;
+    padding: 5px 8px;
+    border-radius: 3px;
 }
 .one{
     background-color: #47adf1;
     color: white;
+    border-color: #47adf1;
+}
+.two{
+    background-color: white;
+    color: gray;
+    border-color: gray;
 }
 h3{
     margin-top: 30px;
@@ -49,7 +64,16 @@ p{
 p::before{
     content: '\2713 ';
     margin-right: 5px;
-    /* border: 1px solid red; */
+    padding: 2px;
+    font-size: 10px;
+    color: #aadfd4;
+    border: 2px solid #aadfd4;
+    border-radius: 50%;
+}
+.ballot::before{
+    content: '\2717';
+    color: red;
+    border: 2px solid red;
 }
 span{
     font-size: 12px;
@@ -75,8 +99,4 @@ span{
 }
 .lime{
     background-color: #b0c926;
-}
-.ballot::before{
-    content: '\2717';
-
 }
