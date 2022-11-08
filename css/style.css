@@ -24,15 +24,15 @@ main{
     margin: auto;
     border-radius: 5px;
 }
-.buttons{
+.input{
     padding: 10px 20px;
     border-bottom: 3px solid gray;
 }
-.input{
+.button{
     padding: 5px;
 }
 .one{
-    background-color: blue;
+    background-color: #47adf1;
     color: white;
 }
 h3{
@@ -49,13 +49,34 @@ p{
 p::before{
     content: '\2713 ';
     margin-right: 5px;
+    /* border: 1px solid red; */
 }
 span{
     font-size: 12px;
-    background-color: red;
     padding: 5px;
+    margin-left: 5px;
     border-radius: 10px;
     color: white;
 }
+.blue{
+    background-color: #47adf1;
+}
+.violet{
+    background-color: #9c72e4;
+}
+.green{
+    background-color: #64c0a9;
+}
+.orange{
+    background-color: #d863a1;
+}
+.red{
+    background-color: #d863a1;
+}
+.lime{
+    background-color: #b0c926;
+}
+.ballot::before{
+    content: '\2717';
 
 }
