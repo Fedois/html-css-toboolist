@@ -7,7 +7,7 @@
 body{
     background-color: #f6f8f9;
 }
-header, .conteiner{
+header, .container{
     background-color: white;
 }
 img{
@@ -24,15 +24,15 @@ main{
     margin-top: 40px;
     height: 100%;
 }
-.conteiner{
-    padding: 10px 40px 20px 40px;
+.container{
+    padding: 10px 0 20px;
     background-color: white;
     width: 50%;
     margin: auto;
     border-radius: 5px;
 }
-.input{
-    padding: 10px 20px;
+.buttons{
+    padding: 10px 40px;
     border-bottom: 3px solid #f6f8f9;
 }
 .button{
@@ -48,6 +48,9 @@ main{
     background-color: white;
     color: gray;
     border-color: gray;
+}
+.list{
+    padding-left: 40px;
 }
 h3{
     margin-top: 30px;
